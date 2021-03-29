@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    margin: 20;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    background: rgb(81, 179, 25);
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 125px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+
+.box2 {
+    background: rgb(224, 248, 7);
+    position: relative;
+    flex: 1;
+    max-width: 1024px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+
+.box3 {
+    background: rgb(255, 136, 0);
+    position: relative;
+    flex: 1;
+    max-width: 329px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+
+.box4 {
+    background: rgb(250, 3, 3);
+    position: relative;
+    flex: 1;
+    max-width: 242px;
+    height: 130px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+    .box1 {
+        flex: 100%;
+        max-width: 768px;
+    }
+    .box2 {
+        flex: 100%;
+        max-width: 768px;
+    }
+    .box3 {
+        flex: 100%;
+        max-width: 768px;
+    }
+    .box4 {
+        flex: 100%;
+        max-width: 375px;
+    }
+}
